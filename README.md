@@ -1,31 +1,28 @@
 # Documentacao git
-Documentação do git ajuda nos comandos.
-git init: ele inicia o arquivo ".git/" para controlar a pasta.
-git status: ele é responsavel por validar os arquivos modificados dentro do projeto
-git add: ele é responsavel por colocar o arquivo midificado em uma area segura.
+Documentação do git para ajuda nos comandos.
 
-ERROS DE CONFIGURAÇÃO DO USUÁRIO DO GIT:
-git config --global user.name "<seu_nome>"
+git init: Ele inicia o arquivo ".git/" para controlar a pasta.
 
-git config --global user.email"<seu_email>"
+git status: Ele é responsável por validar os arquivos modificados dentro do projeto. Em vermelho ele mostra os arquivos modificados. Em verde mostra os arquivos que foram adicionado pelo "git add"
 
-git commit -m "<texto_da_modificaçao>" ele é responsavel por  criar uma nova versao do projeto com as referencia do criador.
+git add: Ele é responsável por coloca o arquivo modificado em uma area segura.
 
-git log: validar os meus comentarios e texto_da_modificaçao
+Configuração do usuário do git: git config --global user.name "<seu_nome>" git config --global user.email "<seu_email>"
 
-git checkout -b <nome_da_branch>: Cria uma nova Branch ou ramo
+git commit -m "<texto_da_modificação>": Ele é responsável por criar uma nova versão do projeto com as referencia do criador.
 
-git checkout <nome_da_branch>: Muda de Banch/ramo
+git log: Validar os meus comentários e modificações
 
-git merge <nome_da_branch>: Ele adiciona a branch atual o conteudo de outra branch.
+git checkout -b <nome_da_branch>: Cria um nova branch ou ramo
 
-git clone<url>: Baixa o projeto do repositorio
-git push: Ele envia alteração para p repositorio
+git checkout <nome_da_branch>: Muda de branch/ramo
 
-git pull: Ele puxa as alterações do repositorio
+git merge <nome_da_branch>: Ele adiciona a branch atual o conteúdo de outra branch.
 
-Possiveis Erros:
-403: Apagando as credenciais, gerenciamento de credencial.
+git clone : Baixa o projeto do repositório. git push: Ele envia alteração para o repositório.
 
+git pull: Ele puxa as alterações do repositório.
+
+Possíveis Erros: 403: Apagando as credenciais, gerenciamento de credenciais
 
 
