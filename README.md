@@ -21,6 +21,9 @@ git merge <nome_da_branch>: Ele adiciona a branch atual o conteúdo de outra bra
 
 git clone : Baixa o projeto do repositório. git push: Ele envia alteração para o repositório.
 
+
+git pull: Ele puxa as alterações do repositório.
+
 git pull: Ele puxa as alterações do repositório.
 
 Possíveis Erros: 403: Apagando as credenciais, gerenciamento de credenciais
