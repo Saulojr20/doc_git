@@ -1,4 +1,4 @@
-# doc_git
+# Documentacao git
 Documentação do git ajuda nos comandos.
 git init: ele inicia o arquivo ".git/" para controlar a pasta.
 git status: ele é responsavel por validar os arquivos modificados dentro do projeto
@@ -21,7 +21,11 @@ git merge <nome_da_branch>: Ele adiciona a branch atual o conteudo de outra bran
 
 git clone<url>: Baixa o projeto do repositorio
 git push: Ele envia alteração para p repositorio
+
 git pull: Ele puxa as alterações do repositorio
 
 Possiveis Erros:
 403: Apagando as credenciais, gerenciamento de credencial.
+
+
+
