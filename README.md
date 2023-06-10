@@ -1,4 +1,4 @@
-# doc_git
+# Documentacao git
 Documentação do git ajuda nos comandos.
 git init: ele inicia o arquivo ".git/" para controlar a pasta.
 git status: ele é responsavel por validar os arquivos modificados dentro do projeto
