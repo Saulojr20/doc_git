@@ -1,32 +1,60 @@
 # Documentação git hello
 Documentação do git para ajuda nos comandos.
 
-.....
-git init: Ele inicia o arquivo ".git/" para controlar a pasta.
-....
-
-git status: Ele é responsável por validar os arquivos modificados dentro do projeto.
+````
+git init
+````
+Ele inicia o arquivo ".git/" para controlar a pasta.
+````
+git status
+````
+Ele é responsável por validar os arquivos modificados dentro do projeto.
 Em vermelho ele mostra os arquivos modificados. 
 Em verde mostra os arquivos que foram adicionado pelo "git add"
+````
+git add
+````
+Ele é responsável por coloca o arquivo modificado em uma area segura.
 
-git add: Ele é responsável por coloca o arquivo modificado em uma area segura.
-
-Configuração do usuário do git: 
+# Configuração do usuário do git: 
+````
 git config --global user.name "<seu_nome>" 
+````
+````
 git config --global user.email "<seu_email>"
+````
+````
+git commit -m "<texto_da_modificação>"
+````
+Ele é responsável por criar uma nova versão do projeto com as referencia do criador.
+````
+git log
+````
+Exibe todos os Commits do repositorio.
 
-git commit -m "<texto_da_modificação>": Ele é responsável por criar uma nova versão do projeto com as referencia do criador.
+````
+git checkout -b <nome_da_branch>
+````
+Cria um nova branch ou ramo
 
-git log: Validar os meus comentários e modificações
+````
+git checkout <nome_da_branch>
+````
+Muda de branch/ramo
 
-git checkout -b <nome_da_branch>: Cria um nova branch ou ramo
+````
+git merge <nome_da_branch>
+````
+Ele adiciona a branch atual o conteúdo de outra branch.
 
-git checkout <nome_da_branch>: Muda de branch/ramo
+````
+git clone
+````
+Baixa o projeto do repositório. git push: Ele envia alteração para o repositório.
 
-git merge <nome_da_branch>: Ele adiciona a branch atual o conteúdo de outra branch.
+````
+git pull
+````
+Ele puxa as alterações do repositório.
 
-git clone : Baixa o projeto do repositório. git push: Ele envia alteração para o repositório.
-
-git pull: Ele puxa as alterações do repositório.
-
-Possíveis Erros: 403: Apagando as credenciais, gerenciamento de credenciais
+## Possíveis Erro: 403: Apagando as credenciais, gerenciamento de credenciais
